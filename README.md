@@ -19,3 +19,11 @@ Creation Process...
 mkdir keyLogger
 cd keyLogger
 code . # For VsCode 
+```
+## For Converting py to exe
+```sh
+pip install pyinstaller
+pyinstaller --onefile main.py # filename is main.py
+# for running : dist/main
+```
+
